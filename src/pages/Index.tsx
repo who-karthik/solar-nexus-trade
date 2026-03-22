@@ -1,2 +1,4 @@
-import RoleSelection from "./pages/RoleSelection";
-export default RoleSelection;
+import { Navigate } from "react-router-dom";
+
+const Index = () => <Navigate to="/" replace />;
+export default Index;
